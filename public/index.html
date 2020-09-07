@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="asset/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="asset/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="asset/images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e24222">
+  <meta name="msapplication-TileColor" content="#3367d6">
+</head>
+<body>
+  <header id="header">
+    Weather Forcast
+  </header>
+  <main class="container">
+    <div class="input-div">
+      <input type="text" autocomplete="off" placeholder="Enter City" class="input">
+      <div class="notification"></div>
+      <input type="submit" value="Search" class="submit">
+
+    </div>
+    <div class="search-results">
+      <div class="weather-icon">
+        <img src="asset/icons/unknown.png" alt="">
+      </div>
+      <div class="location"></div>
+      <div class="date"></div>
+      <div class="temp"></div>
+      <div class="desc"></div>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
